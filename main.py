@@ -119,7 +119,7 @@ async def send_channel_req(session, combonation):
                             ]
                         })
 
-                        if discord_response.status != 204 or discord_response.status != 200:
+                        if discord_response.status != 204:
                             error_msg = await discord_response.content.read()
                             print(f"Discord Webhook error ({discord_response.status}): {error_msg}")
     except asyncio.TimeoutError:

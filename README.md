@@ -52,11 +52,11 @@ options:
 
 * Lastly, `--webhook-url` is optional, and accepts a string of a [Discord Webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) URL. When the session finds a channel not already in `bin/channels.json`, it'll send a `POST` request to the Webhook in question with the channel name, and DeployHistory link.
 
-<sup>
+<sub>
 
 *P.S., just try to figure everything else out yourself from the `--help` prompt; this is provided with zero extra support or warranty <3*
 
-</sup>
+</sub>
 
 ## License
 

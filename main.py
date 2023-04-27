@@ -17,7 +17,7 @@ from argparse import ArgumentParser
 # parse flags
 parser = ArgumentParser(description="s3 funny hacking")
 parser.add_argument("--min-length", type=int, default=1, help="Minimum character length of channel name combonations to bruteforce")
-parser.add_argument("--chars", type=str, default="abcdefghijklmnopqrstuvwxyz", help="Characters (in a single string) to use for channel name combonations")
+parser.add_argument("--chars", type=str, default="abcdefghijklmnopqrstuvwxyz1", help="Characters (in a single string) to use for channel name combonations")
 parser.add_argument("--prefix", type=str, default="z", help="Prefix for channel names (e.g. \"zfeature\")")
 parser.add_argument("--attempt-milestone", default=5000, type=int, help="Number of attempts between cache writes and milestone prints")
 parser.add_argument("--workers", type=int, default=250, help="Number of max thread workers to use")

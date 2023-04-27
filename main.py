@@ -1,5 +1,5 @@
-# s3forcer
-# reggie#1000 <3
+# s3forcer | https://github.com/regginator/s3forcer
+# MIT License - Copyright (c) 2023 Reggie <reggie@latte.to>
 
 # enjoy the shit code.. I wrote this in like a day with little to no knowledge
 # about the libraries i'm using here lol. feel free to submit PRs with some
